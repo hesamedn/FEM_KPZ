@@ -10,7 +10,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
     cout << "Finite Element Simulation of the KPZ model using the Moveing Mesh method,v0.01" << endl;
     cout << "by Hesam Derakhshan \n" << endl;
-
+    cout << "laste modified date: 15.09.1399" <<endl;
 }
 
 //=======================================================================================================================================
