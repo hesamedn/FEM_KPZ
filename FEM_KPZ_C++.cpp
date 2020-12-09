@@ -14,20 +14,24 @@ const float g     = 1./8;                 // Coupling constant g
 const float dx    = 1./4;                 // Primary  Δx 
 const float dt    = 1./1024;              // Δt
 //------------------------------------------
+
 class KPZClass {
     double time;          //time
     double x [L] = { };  // Array of discrete points
+   //-------- initialize x----------- 
     for (int i = 0; i < L; i++)
     {
-     x[i] = i * dx  
+     x[i] = i * dx
+     cout << x[i] << endl;  
     }
     
+    double u[L] = {0};
+    double u_temp[L] = {};
+    double h[L] = {0};
+    double xi[L] = {};
+    double eta[L] = {};
 
 public:
-
-
-private:
-    /* data */
 
 
 };
