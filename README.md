@@ -1,4 +1,4 @@
-# simulation  Kardar Parisi Zhang equation in 1+1 dimension 
+# Testing simulation KPZ equation in 1+1 dimension in python 
 More details
 ------------
 In this project we work on simulating the KPZ 1+1D equation.
