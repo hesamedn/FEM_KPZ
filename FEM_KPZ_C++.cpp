@@ -16,34 +16,12 @@ const float dt    = 1./1024;              // Δt
 //------------------------------------------
 
 class KPZClass {
-    double time;          //time
-    double x [L] = { };  // Array of discrete points
-   //-------- initialize x----------- 
-    for (int i = 0; i < L; i++)
-    {
-     x[i] = i * dx
-     cout << x[i] << endl;  
-    }
-    
-    double u[L] = {0};
-    double u_temp[L] = {};
-    double h[L] = {0};
-    double xi[L] = {};
-    double eta[L] = {};
+
 
 public:
 
 
 };
-
-// FEM_KPZ_C++::FEM_KPZ_C++(/* args */)
-// {
-// }
-
-// FEM_KPZ_C++::~FEM_KPZ_C++()
-// {
-// }
-
 
 int main(int argc, char *argv[]) {
     cout << "Finite Element Simulation of the KPZ model using the Moveing Mesh method,v0.01" << endl;
